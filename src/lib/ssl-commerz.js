@@ -172,7 +172,7 @@ async function updateOrderStatus(tran_id, res) {
             await order.save();
             
             // Redirect to the frontend success page
-            const redirectUrl = `${process.env.FRONTEND_URL || 'http://localhost:5173'}/payment-success/${tran_id}`;
+            const redirectUrl = `${process.env.FRONTEND_URL || 'https://681503a96aa0c51aa94c1e06--verdant-churros-839c09.netlify.app'}/payment-success/${tran_id}`;
             
             // Check if this is an API response or redirect
             if (res.headersSent) {
@@ -190,7 +190,7 @@ async function updateOrderStatus(tran_id, res) {
             }
         } else {
             console.error("Order not found for transaction ID:", tran_id);
-            const errorUrl = `${process.env.FRONTEND_URL || 'http://localhost:5173'}/fail`;
+            const errorUrl = `${process.env.FRONTEND_URL || 'https://681503a96aa0c51aa94c1e06--verdant-churros-839c09.netlify.app'}/fail`;
             
             if (res.redirect) {
                 res.redirect(errorUrl);
