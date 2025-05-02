@@ -55,10 +55,10 @@ const sslPaymentController = async(req, res) => {
         total_amount: finalAmount,
         currency: "BDT", // Use BDT as default currency for Bangladesh
         tran_id: tran_id, // Use a unique transaction ID for each payment
-        success_url: `${process.env.FRONTEND_URL || 'http://localhost:5173'}/payment-success/${tran_id}`,
-        fail_url: `${process.env.FRONTEND_URL || 'http://localhost:5173'}/fail`,
-        cancel_url: `${process.env.FRONTEND_URL || 'http://localhost:5173'}/cancel`,
-        ipn_url: `${process.env.FRONTEND_URL || 'http://localhost:5173'}/ipn`,
+        success_url: `${process.env.FRONTEND_URL || 'https://681503a96aa0c51aa94c1e06--verdant-churros-839c09.netlify.app'}/payment-success/${tran_id}`,
+        fail_url: `${process.env.FRONTEND_URL || 'https://681503a96aa0c51aa94c1e06--verdant-churros-839c09.netlify.app'}/fail`,
+        cancel_url: `${process.env.FRONTEND_URL || 'https://681503a96aa0c51aa94c1e06--verdant-churros-839c09.netlify.app'}/cancel`,
+        ipn_url: `${process.env.FRONTEND_URL || 'https://681503a96aa0c51aa94c1e06--verdant-churros-839c09.netlify.app'}/ipn`,
         shipping_method: "Courier",
         product_name: productNames,
         product_category: "Fashion",
