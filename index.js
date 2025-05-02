@@ -14,7 +14,7 @@ app.use(express.json({ limit: "10mb" }));
 app.use(
     cors({
         origin: [
-            "http://localhost:5173",
+            "https://stepupfront-a0u35ev77-tanvirontongmailcoms-projects.vercel.app/",
             // "http://100.117.109.6:5173",
             // "https://step-up-nu.vercel.app",
         ], // updatesgfsgd
