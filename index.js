@@ -14,7 +14,7 @@ app.use(express.json({ limit: "10mb" }));
 app.use(
     cors({
         origin: [
-            "https://stepupfront.vercel.app/",
+            
             "https://681503a96aa0c51aa94c1e06--verdant-churros-839c09.netlify.app",
             "https://courageous-fox-119ac5.netlify.app",
             "https://astonishing-frangipane-391684.netlify.app"
