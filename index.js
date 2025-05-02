@@ -16,6 +16,7 @@ app.use(
         origin: [
             "https://stepupfront.vercel.app/",
             "https://681503a96aa0c51aa94c1e06--verdant-churros-839c09.netlify.app",
+            "https://courageous-fox-119ac5.netlify.app/"
             "http://localhost:5173",
             // "http://100.117.109.6:5173",
             // "https://step-up-nu.vercel.app",
