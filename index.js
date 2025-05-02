@@ -15,6 +15,7 @@ app.use(
     cors({
         origin: [
             "https://stepupfront.vercel.app/",
+            "http://localhost:5173/",
             // "http://100.117.109.6:5173",
             // "https://step-up-nu.vercel.app",
         ], // updatesgfsgd
